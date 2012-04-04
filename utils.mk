@@ -1,8 +1,8 @@
 CC = g++
 NAME = utils
-OBJECTS = matrix.o misc.o boolean_matrix.o
-SOURCE = matrix.C misc.C boolean_matrix.C
-HEADERS = matrix.h misc.h boolean_matrix.h
+OBJECTS = matrix.o
+SOURCE = matrix.C
+HEADERS = matrix.h
 
 all: $(NAME).lib
 
